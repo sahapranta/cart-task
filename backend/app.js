@@ -4,6 +4,7 @@ var cookieParser = require('cookie-parser');
 
 var indexRouter = require('./routes/index');
 var productsRouter = require('./routes/products');
+var ordersRouter = require('./routes/orders');
 
 var app = express();
 app.use(express.json());
@@ -19,5 +20,6 @@ app.use(function(req, res, next) {
 });  
 app.use('/', indexRouter);
 app.use('/products', productsRouter);
+app.use('/orders', ordersRouter);
 
 module.exports = app;
