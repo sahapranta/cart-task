@@ -1,0 +1,18 @@
+{
+  "name": "cart-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "client": "cd frontend && npm start",
+    "server": "cd backend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "\"npm run server\"",
+    "preinstall": "cd backend && npm i"
+  },
+  "author": "Pranta Saha",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

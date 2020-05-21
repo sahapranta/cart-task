@@ -1,0 +1,46 @@
+.bg-orange{
+  background: rgb(255, 84, 16);
+  color: #fff;
+}
+
+.counter{
+  width: 40px;
+}
+
+.fav{
+  position: absolute;
+  right:10px;
+  top:10px;
+}
+
+.fav:hover{
+  color: rgb(255, 84, 16) !important;
+  border: 1px solid rgb(255, 84, 16) !important;
+  cursor: pointer;
+}
+
+.btn-xs{
+  padding: 0 6px !important;  
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.ellipsis{
+  white-space: nowrap;
+  overflow: hidden;  
+  text-overflow: ellipsis;
+}
+
+.cart-table td{  
+  padding: 8px;
+}
+
+.cart-table tr:nth-child(even){background-color: #f8f8f8;}
+.cart-table tr:hover {background-color: #ddd;}
+
+.cart-scroll{
+  max-height: 60vh;
+  overflow-y: auto;
+}
